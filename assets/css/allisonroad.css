@@ -378,7 +378,7 @@ header.video .overlay {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #000;
+  background: #fff;
   z-index: 998;
   opacity: 0;
 }
@@ -390,7 +390,7 @@ header.video .scroll-down {
 }
 @media (min-width: 768px) {
   header.video .overlay {
-    opacity: 0.5;
+    opacity: 0.1;
   }
 }
 aside.cta-quote {
