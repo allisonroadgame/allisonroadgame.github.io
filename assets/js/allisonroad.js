@@ -85,9 +85,17 @@
     $("header.video").background({
         source: {
             poster: "assets/img/AllisonRoad_Hallway2.jpg",
-            mp4: "assets/mp4/allisonroad.m4v"
+            webm: "assets/video/allisonroadbackground.webm",
+            mp4: "assets/video/allisonroadbackground.mp4",
+            ogg: "assets/video/allisonroadbackground.ogv"
         }
     });
+
+    /* $("header.video").background({
+        source: {
+            video: "//www.youtube.com/embed/CZyPr5W3-4s"
+        }
+    });   */
 
     // Scrollspy: Highlights the navigation menu items while scrolling.
     $('body').scrollspy({
