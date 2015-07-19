@@ -390,7 +390,7 @@ header.video .scroll-down {
 }
 @media (min-width: 768px) {
   header.video .overlay {
-    opacity: 0.8;
+    opacity: 0.25;
   }
 }
 aside.cta-quote {
